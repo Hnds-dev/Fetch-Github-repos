@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2061cb;
+    font-family: 'Cairo',
+        sans-serif;
+}
+
+.container {
+    width: 600px;
+    background-color: white;
+    margin: 200px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.container .head {
+    display: flex;
+}
+
+.container .head input {
+    width: 100%;
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 1px solid;
+}
+
+.container .head input:focus {
+    outline: 2px solid #3a85ff;
+}
+
+.container .head button {
+    margin-left: 5px;
+    width: 80px;
+    background-color: #3a85ff;
+    color: white;
+    border: 1px solid;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 15px;
+    cursor: pointer;
+}
+
+.container .show-data {
+    margin-top: 35px;
+}
+
+.container .show-data .msg {
+    margin: 37%;
+}
+
+.mainDiv {
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.mainDiv:not(:last-child) {
+    margin-bottom: 5px;
+}
+
+.mainDiv a {
+    color: white;
+    background-color: #3a85ff;
+    padding: 3px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.mainDiv span {
+    color: #2061cb;
+}
